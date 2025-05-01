@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://notnow.ink/about/</loc>
     <lastmod>2025-05-01T00:32:56+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://notnow.ink/</loc>
     <lastmod>2025-05-01T00:32:56+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://notnow.ink/posts/hello-world/</loc>
     <lastmod>2025-05-01T00:32:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://notnow.ink/posts/</loc>
     <lastmod>2025-05-01T00:32:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://notnow.ink/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://notnow.ink/tags/</loc>
   </url>
 </urlset>

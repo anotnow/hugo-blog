@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "https://notnow.ink/"
+title = "notnow's blog"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -335,16 +335,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "张豪俊的博客，涉及Python、Selenium、golang、数据库等方面的技术"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2019-07-20T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    # siteTwitter = "notnow"
     # 说明：用于 Twitter Cards
 
 
@@ -465,7 +465,7 @@ uglyURLs = false
     # Atom & RSS
 
     # 是否包括全文内容
-    includeContent = true
+    includeContent = false
     # 说明：如果否，则只会包含文章的摘要。关于摘
     #      要，Hugo 能按你设置的字数限制自动截
     #      取，你也可以在文章中通过
@@ -480,7 +480,7 @@ uglyURLs = false
 
     # 自定页脚（支持 Template 与 Markdown 语法）
     feedFooter = """> 阅读原文：<{{ .Permalink }}>  
-> 博客公告：博客现已开通邮件订阅，欢迎[通过 Substack 订阅](https://username.substack.com)支持我的创作！"""
+> 博客公告：博客每天更新，欢迎支持我的创作！"""
 
 
     ######################################
@@ -773,7 +773,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 36
+    postWidth = 42
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -841,7 +841,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -1030,7 +1030,7 @@ uglyURLs = false
     ######################################
     ## 行间距
 
-    lineHeight = 2
+    lineHeight = 1.5
     # 说明：只会应用到文章的段落和目录
 
     ######################################
@@ -1176,7 +1176,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
@@ -1186,6 +1186,7 @@ uglyURLs = false
     displayShareOnText = false
 
     postShareItems = ["facebook", "mastodon", "fediverse", "twitter", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
+    # postShareItems = ["weibo", "douban", "qq", "qzone", "qrcode", "email"]
 
     # 从网络获取 Fediverse 实例列表用于输入建议
     fetchFediverseInstances = false
@@ -1302,15 +1303,15 @@ uglyURLs = false
     displaySiteAuthorName = true
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下"
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
@@ -1320,7 +1321,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
@@ -1449,31 +1450,31 @@ uglyURLs = false
     # 定制第三方库的地址
 
     [params.lib]
-        host = "https://cdn.jsdelivr.net"
+        host = "https://unpkg.com"
         # 说明：设置为根（"/"）且将下方对应 path
         #      设置，如果你想要直接从「本地」
         #      加载某个库的话。比如：
         #      将 path 设置为 "js/lib.min.js"，
         #      并将文件放到你的 /static/js/lib.min.js
     [params.lib.path]
-        clipboard = "/npm/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
-        instantsearch = "/npm/instantsearch.js@2/dist/instantsearch.min.js"
-        gitalk = "/npm/gitalk@1/dist/gitalk.min.js"
-        gitalk_css = "/npm/gitalk@1/dist/gitalk.css"
-        instantpage = "/npm/instant.page@5.1.0/instantpage.min.js"
-        katex = "/npm/katex@0.13.0/dist/katex.min.js"
-        katex_css = "/npm/katex@0.13.0/dist/katex.min.css"
-        katex_mhchem = "/npm/katex@0.13.0/dist/contrib/mhchem.min.js"
-        katex_auto_render = "/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
-        lunr = "/npm/lunr@2.3.9/lunr.min.js"
-        lunr_tinyseg = "/npm/lunr-languages@1.4.0/tinyseg.js"
-        lunr_stemmer = "/npm/lunr-languages@1.4.0/min/lunr.stemmer.support.min.js"
-        lunr_lang = "/npm/lunr-languages@1.4.0/min/lunr.de.min.js"
-        mathjax = "/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
-        medium_zoom = "/npm/medium-zoom@latest/dist/medium-zoom.min.js"
-        mermaid = "/npm/mermaid@8.8.3/dist/mermaid.min.js"
-        qrcode = "/npm/qrcode-generator@1.4.4/qrcode.min.js"
-        valine = "/npm/valine@1.4.14/dist/Valine.min.js"
+        clipboard = "/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
+        instantsearch = "/instantsearch.js@2/dist/instantsearch.min.js"
+        gitalk = "/gitalk@1/dist/gitalk.min.js"
+        gitalk_css = "/gitalk@1/dist/gitalk.css"
+        instantpage = "/instant.page@5.1.0/instantpage.js"
+        katex = "/katex@0.13.0/dist/katex.min.js"
+        katex_css = "/katex@0.13.0/dist/katex.min.css"
+        katex_mhchem = "/katex@0.13.0/dist/contrib/mhchem.min.js"
+        katex_auto_render = "/katex@0.13.0/dist/contrib/auto-render.min.js"
+        lunr = "/lunr@2.3.9/lunr.min.js"
+        lunr_tinyseg = "/lunr-languages@1.4.0/tinyseg.js"
+        lunr_stemmer = "/lunr-languages@1.4.0/min/lunr.stemmer.support.min.js"
+        lunr_lang = "/lunr-languages@1.4.0/min/lunr.de.min.js"
+        mathjax = "/mathjax@3.1.2/es5/tex-mml-chtml.js"
+        medium_zoom = "/medium-zoom@latest/dist/medium-zoom.js"
+        mermaid = "/mermaid@8.8.3/dist/mermaid.min.js"
+        qrcode = "/qrcode-generator@1.4.4/qrcode.js"
+        valine = "/valine@1.4.14/dist/Valine.min.js"
         busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
         utterances = "https://utteranc.es/client.js"
 
@@ -1482,16 +1483,16 @@ uglyURLs = false
     # 作者信息
     [params.author]
         # 名字
-        name = "reuixiy"
+        name = "notnow"
         # 邮箱
-        email = "reuixiy@gmail.com"
+        email = "notnow@notnow.ink"
         # 座右铭或简介
-        motto = "Viva La Vida"
+        motto = "notnow just now"
         # 头像
         avatar = "/icons/apple-touch-icon.png"
         # 网站（默认值：baseURL）
-        website = "https://io-oi.me/"
+        website = "https://notnow.ink/"
         # 推特
-        twitter = "reuixiy"
+        # twitter = "notnow"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        # fediverse = "@notnow@bird.makeup"
