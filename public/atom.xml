@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">notnow&#39;s blog</title>
     <subtitle type="html">张豪俊的博客，涉及Python、Selenium、golang、数据库等方面的技术</subtitle>
-    <updated>2025-05-01T01:15:48&#43;08:00</updated>
+    <updated>2025-05-01T20:26:06&#43;08:00</updated>
     <id>https://notnow.ink/</id>
     <link rel="alternate" type="text/html" href="https://notnow.ink/" />
     <link rel="self" type="application/atom&#43;xml" href="https://notnow.ink/atom.xml" />
@@ -15,44 +15,5 @@
                 <email>notnow@notnow.ink</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.131.0">Hugo</generator>
-        <entry>
-            <title type="text">hello world</title>
-            <link rel="alternate" type="text/html" href="https://notnow.ink/posts/hello-world/" />
-            <id>https://notnow.ink/posts/hello-world/</id>
-            <updated>2025-05-01T00:32:49&#43;08:00</updated>
-            <published>2025-05-01T00:32:49&#43;08:00</published>
-            <author>
-                    <name>notnow</name>
-                    <uri>https://notnow.ink/</uri>
-                    <email>notnow@notnow.ink</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
-                
-                &lt;blockquote&gt;
-&lt;p&gt;阅读原文：&lt;a href=&#34;https://notnow.ink/posts/hello-world/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://notnow.ink/posts/hello-world/&lt;/a&gt;&lt;br&gt;
-博客公告：博客现已开通邮件订阅，欢迎&lt;a href=&#34;https://username.substack.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;通过 Substack 订阅&lt;/a&gt;支持我的创作！&lt;/p&gt;
-&lt;/blockquote&gt;
-            </summary>
-            
-                <content type="html">
-                    
-                    &lt;blockquote&gt;
-&lt;p&gt;阅读原文：&lt;a href=&#34;https://notnow.ink/posts/hello-world/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://notnow.ink/posts/hello-world/&lt;/a&gt;&lt;br&gt;
-博客公告：博客现已开通邮件订阅，欢迎&lt;a href=&#34;https://username.substack.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;通过 Substack 订阅&lt;/a&gt;支持我的创作！&lt;/p&gt;
-&lt;/blockquote&gt;
-                </content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                
-            
-        </entry>
-    
+    <generator uri="https://gohugo.io/" version="0.147.0">Hugo</generator>
 </feed>

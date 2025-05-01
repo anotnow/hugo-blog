@@ -1457,7 +1457,7 @@ uglyURLs = false
         #      将 path 设置为 "js/lib.min.js"，
         #      并将文件放到你的 /static/js/lib.min.js
     [params.lib.path]
-        clipboard = "/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
+        clipboard = "/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.js"
         instantsearch = "/instantsearch.js@2/dist/instantsearch.min.js"
         gitalk = "/gitalk@1/dist/gitalk.min.js"
         gitalk_css = "/gitalk@1/dist/gitalk.css"
